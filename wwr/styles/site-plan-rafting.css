@@ -3,7 +3,7 @@
 :root {
     --primary-color: #333D29;
     --secondary-color: #B6AD90;
-    --acent1-color: #C2C5AA;
+    --accent1-color: #C2C5AA;
     --accent2-color: #A4AC86;
 
     --heading-font: 'Vidaloka', serif;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
-    background-color: var(--acent1-color);
+    background-color: var(--accent1-color);
 }
 
 p {
