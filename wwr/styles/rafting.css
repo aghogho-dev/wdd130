@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Vidaloka&display=swap');
+
+:root {
+    --primary-color: #333D29;
+    --secondary-color: #B6AD90;
+    --accent1-color: #C2C5AA;
+    --accent2-color: #A4AC86;
+
+    --heading-font: 'Vidaloka', serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #C2C5AA;
+    --nav-link-color: #FF4365;
+    --nav-hover-link-color: #808080;
+    --nav-hover-background-color: #FFFFF3;
+}
+
+* {
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    /* padding: 10px; */
+    /* margin: 15px; */
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    width: 30%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 120px;
+    left: 30%;
+    color: var(--primary-color);
+}
+
+.hero article {
+    position: absolute;
+    top: 180px;
+    background-color: var(--accent2-color);
+    opacity: 0.85;
+    width: 80%;
+    left: 80px;
+
+}
+
+.hero article img {
+    float: right;
+}
+
