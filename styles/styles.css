@@ -50,13 +50,6 @@ h1 {
 main {
     grid-column: 2 / 4;
     margin: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "head head head"
-    "content content image"
-    "foot foot foot";
-    align-items: center;
 }
 
 
@@ -121,6 +114,17 @@ footer > p {
     color: #333;
 }
 
+main {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "head head head"
+    "cont cont image"
+    "foot foot foot";
+    
+}
+
 
 main img {
     width: 150px;
@@ -139,7 +143,7 @@ main h1 {
 }
 
 main p, main ul {
-    grid-area: content;
+    grid-area: cont;
 }
 
 main ul {
