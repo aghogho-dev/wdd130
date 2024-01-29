@@ -24,6 +24,8 @@ body {
     box-sizing: border-box;
     font-family: var(--paragraph-font);
     max-width: 960px;
+    width: 90%;
+    margin: 0 auto;
     /* padding: 10px; */
     /* margin: 15px; */
 }
@@ -77,3 +79,46 @@ h4, h5, h6 {
 figcaption {
     font-weight: bold;
 }
+
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+
+header nav {
+    display: flex;
+    text-decoration:none;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--nav-background-color);
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+section h2 {
+    background-color: var(--accent1-color);
+}
+
+section p {
+    padding: 10px;
+}
+
+section figure img {
+    width: 140px;
+    height: auto;
+}
+
+ .adventure-imgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.

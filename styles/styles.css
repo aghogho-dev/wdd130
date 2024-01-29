@@ -50,6 +50,13 @@ h1 {
 main {
     grid-column: 2 / 4;
     margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "head head head"
+    "content content image"
+    "foot foot foot";
+    align-items: center;
 }
 
 
@@ -121,7 +128,20 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
+    /* float: right; */
     margin-left: 5px;
+    grid-area: image;
+    align-self: flex-start;
 }
 
+main h1 {
+    grid-area: head;
+}
+
+main p, main ul {
+    grid-area: content;
+}
+
+main ul {
+    grid-area: foot;
+}
