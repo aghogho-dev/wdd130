@@ -49,8 +49,6 @@ h1 {
 main {
     grid-column: 2 / 4;
     margin: 1rem;
-    display: grid;
-    align-items: center;
 }
 
 p {
@@ -125,3 +123,7 @@ main img {
     margin-left: 5px;
 }
 
+main {
+    display: grid;
+    align-items: center;
+}
