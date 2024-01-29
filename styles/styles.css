@@ -49,6 +49,8 @@ h1 {
 main {
     grid-column: 2 / 4;
     margin: 1rem;
+    display: grid;
+    align-items: center;
 }
 
 p {
