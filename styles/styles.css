@@ -135,7 +135,7 @@ main img {
     /* float: right; */
     margin-left: 5px;
     grid-area: image;
-    align-self: flex-start;
+    align-self: stretch;
 }
 
 main h1 {
