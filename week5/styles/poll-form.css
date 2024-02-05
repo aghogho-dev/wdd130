@@ -76,17 +76,22 @@ input[type="checkbox"] {
 }
 
 button {
-    margin: 1rem;
+    margin: 1rem auto;
     background-color: navy;
     color: #fff;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    width: 30%;
+}
+
+button:hover {
+    background-color: darkgreen;
 }
 
 footer {
-    margin: 1rem auto 0;
+    margin: 1rem auto 10px;
     width: 650px;
     text-align: center;
     font-size: .8em;
