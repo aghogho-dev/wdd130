@@ -73,7 +73,7 @@ footer {
     border-top: 1px solid #ccc;
 }
 
-div {
+div.form-item {
     display: grid;
     align-items: center;
     margin-bottom: 10px;
