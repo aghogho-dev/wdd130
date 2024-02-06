@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Vidaloka&display=swap');
+
+:root {
+    --primary-color: #333D29;
+    --secondary-color: #B6AD90;
+    --accent1-color: #C2C5AA;
+    --accent2-color: #A4AC86;
+
+    --heading-font: 'Vidaloka', serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #C2C5AA;
+    --nav-link-color: #FF4365;
+    --nav-hover-link-color: #808080;
+    --nav-hover-background-color: #FFFFF3;
+}
+
+* {
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 10px; */
+    /* margin: 15px; */
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+address {
+    display: flex;
+    justify-content: space-between;
+}
+
+address div {
+    align-self: center;
+}
+
+iframe {
+    width: 450px;
+    height: 250px;
+}
+
+
+figcaption {
+    font-weight: bold;
+    font-size: 80%;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+
+header nav {
+    display: flex;
+    text-decoration:none;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--nav-background-color);
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+}
+
+main h1 {
+    justify-self: center;
+}
+
+section h2 {
+    background-color: var(--accent1-color);
+}
+
+section p {
+    padding: 10px;
+}
+
+section figure img {
+    width: 148px;
+    height: 100px;
+}
+
+ .employees {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer nav a {
+    width: 50px;
+    height: 50px;
+}
+
+
+footer {
+    margin-bottom: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: ". pars emoj";
+    grid-template-columns: 1fr 2fr 1fr;
+    border-top: 1px solid black;
+}
+
+
+footer p {
+    grid-area: pars;
+    
+}
+
+footer nav {
+    grid-area: emoj;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+form {
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+
+button {
+    margin: 1rem auto;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 30%;
+}
+
+button:hover {
+    background-color: var(--nav-link-color);
+}
+
+.form-item {
+    display: grid;
+}
+
+
+
+
