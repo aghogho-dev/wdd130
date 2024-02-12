@@ -279,7 +279,8 @@ form {
 }
 
 
-button, .section-one > p:last-of-type {
+button, .section-one > p:last-of-type,
+.home-three > p:last-of-type {
     margin: 1rem auto;
     background-color: var(--primary-color);
     color: #fff;
@@ -290,7 +291,8 @@ button, .section-one > p:last-of-type {
     width: 30%;
 }
 
-button:hover, .section-one > p:last-of-type:hover {
+button:hover, .section-one > p:last-of-type:hover,
+.home-three > p:last-of-type:hover {
     background-color: var(--nav-link-color);
 }
 
@@ -301,7 +303,7 @@ button:hover, .section-one > p:last-of-type:hover {
 
 /* Trips Page */
 
-.section-one {
+.section-one, .home-three {
     display: grid;
     background-color: var(--nav-background-color);
     text-align: center;
@@ -320,8 +322,6 @@ button:hover, .section-one > p:last-of-type:hover {
     font-weight: bold;
     font-size: larger;
 }
-
-
 
 .section-two img {
     width: 300px;
@@ -364,3 +364,62 @@ tr > td:last-of-type {
     justify-content: space-evenly;
 }
 
+/* HomePage CSS */
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.home-one img {
+    display: block;
+    width: 1000px;
+    height: auto; 
+}
+
+form label {
+    text-align: left;
+    padding-right: 1rem;
+} 
+
+.home-one {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.home-two p {
+    text-align: center;
+    display: grid;
+}
+
+.home-three div {
+    display: grid;
+    grid-template-areas: "pic1 pic2 pic3";
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.home-three img {
+    width: 300px;
+    height: auto;
+}
+
+.home-three p a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: 700;
+}
